@@ -2,7 +2,7 @@ export function SobreNos() {
   return (
     <div className="mb-10 bg-[white] p-8 mt-8 max-w-341.5 mx-auto">
       
-      <h1 className="text-2xl md:text-5xl tracking-tight mb-16 max-w-4xl ml-2 font-semibold underline decoration-[#FF0B0B] decoration-6 underline-offset-4">
+      <h1 className="text-2xl md:text-5xl tracking-tight mb-16 max-w-4xl ml-2 font-semibold underline decoration-[#FF0B0B] decoration-6 underline-offset-4 text-[#191A23]">
         Sobre Nós
       </h1>
       
@@ -77,16 +77,16 @@ export function SobreNos() {
           </div>
 
           {/* REDES SOCIAIS */}
-          <div className="flex flex-col justify-center gap-6">
+          <div className="flex flex-col justify-center gap-6 text-[#191A23]">
             
-            <h3 className="text-xl font-semibold text-white">
+            <h3 className="text-xl font-semibold text-[#191A23]">
               Entre em contato: 👋
             </h3>
 
             <a
               href="https://wa.me/SEUNUMERO"
               target="_blank"
-              className="flex items-center gap-3 bg-white p-4 rounded-xl shadow hover:shadow-md transition"
+              className="flex items-center gap-3 bg-white p-4 rounded-xl shadow hover:shadow-md transition "
             >
               <img className="w-7.5" src="/whatsapp.png" alt="" />
               <span>WhatsApp</span>
