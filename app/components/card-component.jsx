@@ -5,28 +5,32 @@ export function CardComponent() {
       highlight: "Focamos em SEO",
       bgColor: "bg-gray-200",
       textColor: "text-black",
-      img: "/pesquisa.svg"
+      img: "/pesquisa.svg",
+      alt:"ilustração pesquisa"
     },
     {
       text: "Um site responsivo garante que sua marca seja bem apresentada em qualquer tela. \n  \n Com uma navegação intuitiva e rápida, você oferece uma melhor experiência ao usuário e transforma mais visitas em oportunidades reais de negócio.",
       highlight: "Sites responsivos",
       bgColor: "bg-[#FF0B0B]",
       textColor: "text-black",
-      img: "/responsividade1.svg"
+      img: "/responsividade1.svg",
+      alt:"ilustralção desktop mobile"
     },
     {
       text: "Criamos sistemas sob medida para sua empresa, automatizando processos e facilitando as demandas do dia a dia.\n  \n  Com mais organização, agilidade e controle, sua equipe ganha produtividade e seu negócio evolui com eficiência.",
       highlight: "Sistemas",
       bgColor: "bg-[#191A23]",
       textColor: "text-white",
-      img: "/sistema3.svg"
+      img: "/sistema3.svg",
+      alt:"ilustação sistema",
     },
     {
       text: "Oferecemos suporte completo do início ao fim do projeto, acompanhando cada etapa com atenção e agilidade. \n  \n Cuidamos de alterações, atualizações e melhorias contínuas, garantindo que seu site ou sistema esteja sempre funcionando da melhor forma.",
       highlight: "Suporte",
       bgColor: "bg-gray-200",
       textColor: "text-black",
-      img: "./suporte.svg"
+      img: "./suporte.svg",
+      alt:"ilustração suporte",
     },
   ];
 
@@ -79,9 +83,9 @@ export function CardComponent() {
 
                 <div className="flex justify-end items-center">
                         <img
-                            src={service.img}
-                            alt={service.title}
-                            className="w-100 object-contain"
+                          src={service.img}
+                          alt={service.alt}
+                          className="w-100 object-contain"
                         />
                     </div>
                 </div>
