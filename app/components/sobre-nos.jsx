@@ -93,7 +93,7 @@ export function SobreNos() {
             </a>
 
             <a
-              href="https://instagram.com/SEUINSTAGRAM"
+              href="https://instagram.com/GersonJrrr"
               target="_blank"
               className="flex items-center gap-3 bg-white p-4 rounded-xl shadow hover:shadow-md transition"
             >
