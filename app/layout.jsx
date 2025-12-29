@@ -31,7 +31,6 @@ export default function RootLayout({ children }) {
       <body className={`${openSans.className} bg-white`}>
         <Navbar/>
         {children}
-        <Footer/>
       </body>
     </html>
   );
