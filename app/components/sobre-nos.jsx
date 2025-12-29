@@ -79,7 +79,7 @@ export function SobreNos() {
           {/* REDES SOCIAIS */}
           <div className="flex flex-col justify-center gap-6 text-[#191A23]">
             
-            <h3 className="text-xl font-semibold text-[#191A23]">
+            <h3 className="text-xl font-semibold text-white text-center">
               Entre em contato: 👋
             </h3>
 

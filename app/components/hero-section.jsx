@@ -49,7 +49,6 @@ export function Hero() {
         </button>
       </div>
 
-      {/* IMAGEM SOMENTE DESKTOP */}
       <div className="hidden lg:block w-[450px]">
         <img src="/Frame.svg" alt="Ilustração" />
       </div>

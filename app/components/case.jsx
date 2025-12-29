@@ -8,11 +8,10 @@ export function CaseComponent() {
 
   return (
     <div className="bg-white p-8 max-w-7xl mx-auto">
-      <h1 className="text-2xl md:text-5xl tracking-tight mb-16 max-w-4xl ml-2 font-semibold underline decoration-[#FF0B0B] decoration-6 underline-offset-4">
+      <h1 className="text-2xl text-[#191A23] md:text-5xl tracking-tight mb-16 max-w-4xl ml-2 font-semibold underline decoration-[#FF0B0B] decoration-6 underline-offset-4">
         Cases
       </h1>
 
-      {/* Wrapper com drag */}
       <div className="relative overflow-x-auto no-scrollbar cursor-grab active:cursor-grabbing">
         <div
           className="

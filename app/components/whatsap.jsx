@@ -38,7 +38,7 @@ export function Whatsapp() {
           transition-transform duration-200
         "
       >
-        <img src="/whatsapp.png" alt="WhatsApp" className="w-full h-full" />
+        <img src="/whatsapp2.png" alt="WhatsApp" className="w-full h-full" />
       </button>
 
       {open && (
