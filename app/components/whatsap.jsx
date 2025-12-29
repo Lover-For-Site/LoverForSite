@@ -28,7 +28,6 @@ export function Whatsapp() {
 
   return (
     <>
-      {/* BOTÃO FIXO */}
       <button
         onClick={() => setOpen(true)}
         aria-label="Abrir WhatsApp"
@@ -42,7 +41,6 @@ export function Whatsapp() {
         <img src="/whatsapp.png" alt="WhatsApp" className="w-full h-full" />
       </button>
 
-      {/* OVERLAY */}
       {open && (
         <div
           onClick={() => setOpen(false)}
@@ -50,7 +48,6 @@ export function Whatsapp() {
         />
       )}
 
-      {/* MODAL */}
       <div
         className={`
           fixed z-50

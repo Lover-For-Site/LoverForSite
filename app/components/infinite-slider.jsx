@@ -19,14 +19,23 @@ export function InfiniteSlider() {
         {tripleItems.map((item, index) => (
           <div
             key={index}
-            className="flex items-center gap-3 px-8 whitespace-nowrap"
+            className="flex items-center gap-3 px-6 md:px-8 whitespace-nowrap"
           >
             <img
               src={item.logo}
               alt={item.label}
-              className="h-12 w-auto object-contain"
+              className="h-6 w-auto object-contain"
             />
-            <span className="text-2xl font-medium text-white">
+            <span
+              className="
+                text-base
+                sm:text-lg
+                md:text-xl
+                lg:text-2xl
+                font-medium
+                text-white
+              "
+            >
               {item.label}
             </span>
           </div>
