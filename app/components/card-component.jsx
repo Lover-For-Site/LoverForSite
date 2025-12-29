@@ -74,9 +74,9 @@ export function CardComponent() {
                 </button>
 
                 {/* DESKTOP – título fixo */}
-                <h3 className="hidden md:block text-3xl font-bold leading-tight">
+                <h1 className="hidden md:block text-3xl font-bold leading-tight">
                   {service.highlight}
-                </h3>
+                </h1>
               </div>
 
               {/* MOBILE – CONTEÚDO EXPANSÍVEL */}
