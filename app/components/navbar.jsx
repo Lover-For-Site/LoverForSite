@@ -45,6 +45,7 @@ export default function Navbar() {
         <button
           className="
             border border-black
+            text-[#191A23]
             rounded-[9px]
             px-3 py-2
             lg:px-4 lg:py-3

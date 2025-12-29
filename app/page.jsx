@@ -13,15 +13,15 @@ import { Whatsapp } from "./components/whatsap";
 export default function Home (){
   return(
     <>
-      <main>
+      <main className="bg-white">
        <Hero/>
+        <div className="mt-10"></div>
+        <InfiniteSlider/>
+        <CardComponent/>
+        <SobreNos/>
+        <CaseComponent/>
+        <Whatsapp/>
       </main>
-      <div className="mt-10"></div>
-      <InfiniteSlider/>
-      <CardComponent/>
-      <SobreNos/>
-      <CaseComponent/>
-      <Whatsapp/>
     </>
   )
 }
