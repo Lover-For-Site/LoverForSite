@@ -13,7 +13,9 @@ import { Whatsapp } from "./components/whatsap";
 export default function Home (){
   return(
     <>
-      <Hero/>
+      <main>
+       <Hero/>
+      </main>
       <div className="mt-10"></div>
       <InfiniteSlider/>
       <CardComponent/>
