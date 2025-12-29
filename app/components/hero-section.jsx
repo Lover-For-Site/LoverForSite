@@ -5,7 +5,7 @@ const space = Space_Grotesk({
   weight: ["400", "500", "700"],
 });
 
-export function Hero() {
+export function Hero({onCreateSite}) {
   return (
     <section
       className="
@@ -34,6 +34,7 @@ export function Hero() {
         </p>
 
         <button
+          onClick={onCreateSite}
           className={`
             mt-6 px-10 py-3
             bg-[#191A23] text-white

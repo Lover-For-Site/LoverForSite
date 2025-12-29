@@ -1,4 +1,4 @@
-export default function Navbar() {
+export default function Navbar({onCreateSite}) {
   return (
     <nav className="w-full bg-white">
       <div
@@ -25,24 +25,25 @@ export default function Navbar() {
       
         <ul className="hidden lg:flex gap-6">
           <li>
-            <a href="#features" className="hover:text-blue-600">
+            <a href="#servicos" className="hover:text-blue-600">
               Serviços
             </a>
           </li>
           <li>
-            <a href="#pricing" className="hover:text-blue-600">
-              Cases
+            <a href="#sobre" className="hover:text-blue-600">
+              Sobre nós
             </a>
           </li>
           <li>
-            <a href="#contact" className="hover:text-blue-600">
-              Sobre nós
+            <a href="#cases" className="hover:text-blue-600">
+              Cases
             </a>
           </li>
         </ul>
 
       
         <button
+          onClick={onCreateSite}
           className="
             border border-black
             text-[#191A23]

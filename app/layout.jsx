@@ -32,8 +32,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="pt-br">
-      <body className={`${openSans.className} bg-white`}>
-        <Navbar/>
+      <body className={`${openSans.className} bg-white scroll-smooth`}>
         {children}
       </body>
     </html>

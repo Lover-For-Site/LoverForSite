@@ -1,6 +1,6 @@
 export function SobreNos() {
   return (
-    <div className="mb-10 bg-[white] p-8 mt-8 max-w-341.5 mx-auto">
+    <div id="sobre" className="mb-10 bg-[white] p-8 mt-8 max-w-341.5 mx-auto">
       
       <h1 className="text-2xl md:text-5xl tracking-tight mb-16 max-w-4xl ml-2 font-semibold underline decoration-[#FF0B0B] decoration-6 underline-offset-4 text-[#191A23]">
         Sobre Nós
@@ -84,11 +84,11 @@ export function SobreNos() {
             </h3>
 
             <a
-              href="https://wa.me/SEUNUMERO"
+              href="https://wa.me/5511916972547"
               target="_blank"
               className="flex items-center gap-3 bg-white p-4 rounded-xl shadow hover:shadow-md transition "
             >
-              <img className="w-7.5" src="/whatsapp.png" alt="" />
+              <img className="w-7.5" src="/whatsapp.png" alt="whatsapp icon" />
               <span>WhatsApp</span>
             </a>
 
@@ -97,7 +97,7 @@ export function SobreNos() {
               target="_blank"
               className="flex items-center gap-3 bg-white p-4 rounded-xl shadow hover:shadow-md transition"
             >
-             <img className="w-7.5" src="/instagram.png" alt="" />
+             <img className="w-7.5" src="/instagram.png" alt="instagram icon" />
               <span>Instagram</span>
             </a>
 
@@ -106,7 +106,7 @@ export function SobreNos() {
               target="_blank"
               className="flex items-center gap-3 bg-white p-4 rounded-xl shadow hover:shadow-md transition"
             >
-             <img className="w-7.5" src="/linkedin.png" alt="" />
+             <img className="w-7.5" src="/linkedin.png" alt="likedin icon" />
               <span>LinkedIn</span>
             </a>
 

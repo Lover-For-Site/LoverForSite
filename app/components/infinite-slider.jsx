@@ -14,7 +14,7 @@ export function InfiniteSlider() {
   const tripleItems = [...items, ...items, ...items];
 
   return (
-    <div className={`w-full overflow-hidden bg-[#191A23] py-4 ${space.className}`}>
+    <div id="servicos" className={`w-full overflow-hidden bg-[#191A23] py-4 ${space.className}`}>
       <div className="flex w-max animate-marquee">
         {tripleItems.map((item, index) => (
           <div

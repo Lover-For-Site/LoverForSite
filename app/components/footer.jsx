@@ -28,47 +28,46 @@ export function Footer() {
             />
 
             <nav className="flex flex-row flex-wrap gap-4 sm:gap-6 text-sm text-center md:text-left">
-              <a href="#about" className="hover:text-lime-400 underline">
-                About us
+              <a href="#sobre" className="hover:text-[#FF0B0B] underline">
+                Sobre nós
               </a>
-              <a href="#services" className="hover:text-lime-400 underline">
-                Services
+              <a href="#servicos" className="hover:text-[#FF0B0B] underline">
+                Servicos
               </a>
-              <a href="#cases" className="hover:text-lime-400 underline">
-                Use Cases
-              </a>
-              <a href="#pricing" className="hover:text-lime-400 underline">
-                Pricing
-              </a>
-              <a href="#blog" className="hover:text-lime-400 underline">
-                Blog
+              <a href="#cases" className="hover:text-[#FF0B0B] underline">
+                Cases
               </a>
             </nav>
 
           </div>
 
    
-          <div className="flex gap-4 self-center md:self-auto">
+          <div className="flex flex-col gap-4 self-center md:self-auto">
             <a
-              href="#"
-              aria-label="LinkedIn"
-              className="hover:text-lime-400 transition-colors"
+              href="https://wa.me/5511916972547"
+              target="_blank"
+              className="flex items-center gap-3 rounded-xl shadow hover:shadow-md transition hover:text-[#FF0B0B] "
             >
-              LinkedIn
+              <img className="w-7.5" src="/whatsapp.png" alt="whatsapp icon" />
+              <span>WhatsApp</span>
             </a>
+
             <a
-              href="#"
-              aria-label="Facebook"
-              className="hover:text-lime-400 transition-colors"
+              href="https://instagram.com/GersonJrrr"
+              target="_blank"
+              className="flex items-center gap-3 rounded-xl shadow hover:shadow-md transition hover:text-[#FF0B0B] "
             >
-              Facebook
+             <img className="w-7.5" src="/instagram.png" alt="instagram icon" />
+              <span>Instagram</span>
             </a>
+
             <a
-              href="#"
-              aria-label="Twitter"
-              className="hover:text-lime-400 transition-colors"
+              href="https://www.linkedin.com/in/gersonjrr/"
+              target="_blank"
+              className="flex items-center gap-3 rounded-xl shadow hover:shadow-md transition hover:text-[#FF0B0B]"
             >
-              Twitter
+             <img className="w-7.5" src="/linkedin.png" alt="likedin icon" />
+              <span>LinkedIn</span>
             </a>
           </div>
         </div>
@@ -83,7 +82,7 @@ export function Footer() {
             <div className="space-y-3 text-sm">
               <p>Email: juniormiranda43@gmail.com</p>
               <p>Telefone: (11) 91697-2547</p>
-              <p>CNPJ: 000012131231/25</p>
+              <p>CNPJ: 61.501.416/0001-88</p>
             </div>
           </div>
         </div>
@@ -97,7 +96,7 @@ export function Footer() {
 
           <a
             href="#privacy"
-            className="underline hover:text-lime-400 transition-colors"
+            className="underline hover:text-[#FF0B0B] transition-colors"
           >
             Política de Privacidade
           </a>

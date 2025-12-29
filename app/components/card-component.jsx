@@ -42,6 +42,7 @@ export function CardComponent() {
 
   return (
     <div className=" bg-white p-8 mt-14 max-w-341.5 mx-auto">
+     
       <h1 className="text-3xl md:text-6xl font-medium tracking-tight mb-16 max-w-4xl text-[#191A23]">
         Por que você deve escolher a
         <span className="ml-2 font-semibold underline decoration-[#FF0B0B] decoration-8 underline-offset-4">

@@ -1,5 +1,11 @@
 @import "tailwindcss";
 
+html {
+  scroll-behavior: smooth;
+}
+
+
+
 @layer utilities {
   @keyframes marquee {
     0% {

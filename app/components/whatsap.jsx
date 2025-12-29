@@ -1,8 +1,8 @@
 "use client"
 import { useState } from "react";
 
-export function Whatsapp() {
-  const [open, setOpen] = useState(false);
+export function Whatsapp({open, setOpen}) {
+
   const [selectedOption, setSelectedOption] = useState("");
 
   const phone = "5511916972547";
