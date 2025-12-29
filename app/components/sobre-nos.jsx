@@ -29,14 +29,14 @@ export function SobreNos() {
            <p>
                 Possuo certificações{" "}
                 <span className="relative inline-block group mx-1">
-                    <strong className="cursor-pointer underline decoration-dotted">
+                    <strong className="cursor-pointer underline decoration-dotted hover:text-[#FF0B0B] ">
                     AWS Cloud Practitioner
                     </strong>
 
                     <span
                     className="absolute z-50 hidden group-hover:block
                     top-full 
-                    bg-white p-3 rounded-2xl shadow-xl"
+                    bg-white p-3 rounded-2xl shadow-xl "
                     >
                         <img
                             src="/awsIa.png"
@@ -49,7 +49,7 @@ export function SobreNos() {
                 {" "}e{" "}
 
                 <span className="relative inline-block group mx-1">
-                    <strong className="cursor-pointer underline decoration-dotted">
+                    <strong className="cursor-pointer underline decoration-dotted hover:text-[#FF0B0B] ">
                     AI Practitioner
                     </strong>
 
@@ -86,7 +86,7 @@ export function SobreNos() {
             <a
               href="https://wa.me/5511916972547"
               target="_blank"
-              className="flex items-center gap-3 bg-white p-4 rounded-xl shadow hover:shadow-md transition "
+              className="flex items-center gap-3 bg-white p-4 rounded-xl shadow hover:shadow-md transition hover:text-[#FF0B0B] "
             >
               <img className="w-7.5" src="/whatsapp.png" alt="whatsapp icon" />
               <span>WhatsApp</span>
@@ -95,7 +95,7 @@ export function SobreNos() {
             <a
               href="https://instagram.com/GersonJrrr"
               target="_blank"
-              className="flex items-center gap-3 bg-white p-4 rounded-xl shadow hover:shadow-md transition"
+              className="flex items-center gap-3 bg-white p-4 rounded-xl shadow hover:shadow-md transition hover:text-[#FF0B0B] "
             >
              <img className="w-7.5" src="/instagram.png" alt="instagram icon" />
               <span>Instagram</span>
@@ -104,7 +104,7 @@ export function SobreNos() {
             <a
               href="https://www.linkedin.com/in/gersonjrr/"
               target="_blank"
-              className="flex items-center gap-3 bg-white p-4 rounded-xl shadow hover:shadow-md transition"
+              className="flex items-center gap-3 bg-white p-4 rounded-xl shadow hover:shadow-md transition hover:text-[#FF0B0B] "
             >
              <img className="w-7.5" src="/linkedin.png" alt="likedin icon" />
               <span>LinkedIn</span>

@@ -25,17 +25,17 @@ export default function Navbar({onCreateSite}) {
       
         <ul className="hidden lg:flex gap-6">
           <li>
-            <a href="#servicos" className="hover:text-blue-600">
+            <a href="#servicos" className="hover:text-[#FF0B0B] ">
               Serviços
             </a>
           </li>
           <li>
-            <a href="#sobre" className="hover:text-blue-600">
+            <a href="#sobre" className="hover:text-[#FF0B0B]">
               Sobre nós
             </a>
           </li>
           <li>
-            <a href="#cases" className="hover:text-blue-600">
+            <a href="#cases" className="hover:text-[#FF0B0B]">
               Cases
             </a>
           </li>
