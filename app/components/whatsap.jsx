@@ -88,7 +88,7 @@ export function Whatsapp({open, setOpen}) {
 
         {/* CONTEÚDO */}
         <div className="bg-[#ECE5DD] p-4 max-h-[400px] overflow-y-auto">
-          <div className="max-w-[85%] rounded-lg bg-white p-3 text-sm shadow mb-3">
+          <div className="max-w-[85%] rounded-lg bg-white text-gray-700 p-3 text-sm shadow mb-3">
             Olá! 👋 <br />
             Sobre qual serviço você gostaria de saber mais?
           </div>
